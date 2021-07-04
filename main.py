@@ -22,16 +22,18 @@ while True:
                 current_text = text
                 print(current_text)
 
-        # Found more than 1 word
+        # Strip everything but spaces and capitals
         current_text = re.sub(r'[^A-Z] ', '', current_text).rstrip()
+
+        # If we have two words just take the first one
         if len(current_text.split()) > 1:
             current_text = current_text.split()[0]
 
-        # Now clean the word.
+        # Now kill the spaces.
         current_text = re.sub(r'[^A-Z]', '', current_text)
         print(current_text)
 
-        # Try spell check?
+        # Try spell check? optional
         current_text = spell.correction(current_text).upper()
         print(current_text)
 
