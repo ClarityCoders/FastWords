@@ -1,0 +1,15 @@
+MouseInfo==0.1.3
+mss==6.1.0
+numpy==1.21.0
+opencv-python==4.5.2.54
+Pillow==8.2.0
+PyAutoGUI==0.9.52
+pycodestyle==2.7.0
+PyGetWindow==0.0.9
+PyMsgBox==1.0.9
+pyperclip==1.8.2
+PyRect==0.1.4
+PyScreeze==0.1.27
+pyspellchecker==0.6.2
+pytesseract==0.3.8
+PyTweening==1.0.3
